@@ -1,0 +1,277 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.div-1{
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 244px;
+    width: 100%;
+    list-style: none;
+    color: #000033;
+    column-gap: 40px;
+}
+.contact{
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 157px;
+    width: 100%;
+    height: 51.35px;
+    border-radius:20px ;
+    border: 2px solid #029837;
+}
+.nav-1{
+    position: relative;
+}
+.nav-1::after{
+   content: " ";
+  height: 2px;
+  width: 0%;
+  background-color: #000033;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #000033;
+  
+}
+.nav-1:hover::after{
+    width: 100%;
+}
+
+
+/* seqcia-1 */
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+   
+}
+
+.conteiner-a{
+    max-width: 630px;
+    width: 100%;
+    margin-left: 68px;
+    row-gap: 30px;
+}
+.h3-1{
+    color:#000033;
+    font-size:50px;
+    max-width: 630px;
+    width: 100%;
+}
+.p-1{
+    color: #000033;
+    font-size: 16px;
+    max-width: 630px;
+    height: 52px;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.bloc{
+    background-color: #029837;
+    border-radius: 20px;
+    color:#FFFFFF;
+    max-width:157px ;
+    height: 53.35px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.div-2{
+    max-width:517.88px;
+    width: 100%;
+    margin-left: 60px;
+}
+
+
+/* section-2 */
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F7FFF6 ;
+    height: 798px;
+
+}
+.div-3{
+    max-width:518px ;
+    width: 100%;
+}
+.div-4{
+    max-width:625px;
+    width: 100%;
+    margin-left:152px;
+}
+.div-5{
+    font-size: 25px;
+    color: #000033;
+    margin-bottom: 30px;
+}
+.div-6{
+    font-size: 16px;
+}
+.div-7{
+    display: flex;
+    margin-top: 11px;
+}
+.div-8{
+    max-width: 157px;
+    height: 53.35px;
+    width: 100%;
+    border: 2px solid #029837;
+    color: #029837;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* section-3 */
+.section-3{
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 880px;
+}
+.the-1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 96px;
+}  
+.the{
+    font-size:35px;
+    color: #000033;
+    max-width: 509px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.lorem{
+    max-width: 598px;
+    width: 100%;
+    color: #000033;
+    font-size: 16px;
+}
+
+/* 1 */
+.post-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-left: 241px;
+    margin-top: 40px;
+}
+.pre-marital{
+    max-width: 387px;
+    height: 405px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid #00003314;
+    border-radius: 20px;
+}
+.img-1{
+    width: 65.1px;
+    height: 53px;
+    background-color:#0298371A;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.pre-marital-1{
+    font-size: 20px;
+    color: #000033;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.pre-marital-2{
+    font-size: 13px;
+    color: #000033;
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 315px;
+    width: 100%;
+}
+.learn{
+    width: 127px;
+    height: 43.13px;
+    border-radius:20px ;
+    border: 2px solid #029837;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+
+/* seqcia-4 */
+.what{
+    font-size:35px ;
+    color: #000033;
+    text-align: center;
+    width: 100%;
+}
+.section-4{
+    width: 100%;
+    background-color:#F7FFF6;
+    height: 663px;
+} 
+.chi{
+    max-width:407px;
+    height: 224px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+}
+.chichi-1{
+    display: flex;
+    
+}
+.chichi-2{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.south{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.afrika{
+    margin:30px 30px 36px 138px;
+}
+.ch{
+    font-size:13px;
+    color:#000033 ;
+}
+.dolor{
+    font-size: 13px;
+    max-width: 353px;
+    width: 100% ;
+    height: 78px;
+    margin: 40px 0px 0px 40px;
+}
