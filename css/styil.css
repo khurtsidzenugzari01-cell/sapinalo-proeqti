@@ -561,7 +561,7 @@
 
 
 /* mede-3 */
-@media(max-width: 520px){
+@media(max-width: 480px){
     .section-3{
         flex-direction: column;
     }
