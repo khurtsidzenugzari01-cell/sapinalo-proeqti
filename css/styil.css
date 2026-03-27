@@ -1,8 +1,8 @@
 .header{
     display: flex;
     justify-content: space-between;
-    width: 100%;
     position: sticky;
+    width: 100%;
     top: 0px;
 }
 .div-1{
@@ -12,14 +12,18 @@
     justify-content: space-between;
 }
 .nav{
-    justify-content: space-between;
     align-items: center;
-    display: flex;
+    text-align: center;
+     display: flex;
     max-width: 244px;
     width: 100%;
-    list-style: none;
     color: #000033;
     column-gap: 40px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact{
     margin-left: 60px;
@@ -33,7 +37,8 @@
     border: 2px solid #029837;
 }
 .nav-1{
-    position: relative;
+   color: #000033; 
+   position: relative;
 }
 .nav-1::after{
    content: " ";
@@ -44,7 +49,6 @@
   bottom: 0px;
   left: 0px;
   color: #000033;
-  
 }
 .nav-1:hover::after{
     width: 100%;
@@ -54,7 +58,6 @@
 /* seqcia-1 */
 .conteiner{
     display: flex;
-    justify-content: space-between;
     text-align: left;
     align-items: center;
    
@@ -63,7 +66,7 @@
 .conteiner-a{
     max-width: 630px;
     width: 100%;
-    margin-left: 68px;
+    margin-left: auto;
     row-gap: 30px;
 }
 .h3-1{
@@ -96,7 +99,7 @@
 .div-2{
     max-width:517.88px;
     width: 100%;
-    margin-left: 60px;
+    margin-left: auto;
 }
 
 
@@ -116,7 +119,7 @@
 .div-4{
     max-width:625px;
     width: 100%;
-    margin-left:152px;
+    margin-left:auto;
 }
 .div-5{
     font-size: 25px;
@@ -178,7 +181,9 @@
 /* 1 */
 .seqtion-a{
     display: flex;
-    margin:80px 70px 160px 80px ;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
     column-gap: 30px;
 }
 .post-1{
@@ -191,7 +196,6 @@
 }
 .pre-marital{
     max-width: 387px;
-    height: 405px;
     width: 100%;
     background-color: white;
     border: 2px solid #00003314;
@@ -207,32 +211,34 @@
     text-align: center;
     display: flex;
     margin-top: 50px;
-    margin-left: 35px;
+    margin-left: 10px;
 }
 .pre-marital-1{
     font-size: 20px;
     color: #000033;
-    margin-left: 30px;
     margin-top: 10px;
+    margin-left: 10px;
 }
 .pre-marital-2{
     font-size: 13px;
     color: #000033;
     margin-top: 10px;
-    margin-left: 20px;
     max-width: 315px;
     width: 100%;
+    margin-left: 10px;
 }
 .learn{
-    width: 127px;
+    max-width: 127px;
     height: 43.13px;
+    width: 100%;
     border-radius:20px ;
     border: 2px solid #029837;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 90px;
-    margin-left: 20px;
+    margin-left: 10px;
+    
 }
 
 
@@ -261,16 +267,16 @@
     
 }
 .chichi-2{
-    margin-left: 30px;
+    margin-left: auto;
     margin-top: 30px;
 }
 .south{
     margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .afrika{
-    margin:30px 30px 36px 138px;
+    margin:auto;
 }
 .ch{
     font-size:13px;
@@ -280,14 +286,16 @@
     font-size: 13px;
     max-width: 353px;
     width: 100% ;
-    margin: 40px 0px 0px 40px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 
 /* seqcia-5 */
 .seqcia-5{
+    max-width: 1555;
     width: 100%;
-    height: 511px;
+    height:551px;
     background-color:#FFFFFF ;
 }
 .Subscribe{
@@ -296,7 +304,9 @@
     align-items: center;
     color: #000033;
     font-size: 35px;
-    margin: 100px 0px 40px 0px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .your{
     text-align: center;
@@ -311,22 +321,21 @@
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    max-width: 713px;
+    margin: auto;
 }
 .email-1{
-    width: 531px;
+   width:400px;
     height: 53px;
     background-color:#F2F1F1 ;
     border-radius: 60px;
-    padding-left: 20px;
-    margin-right: 30px;
 }
 .sub{
-    width: 157px;
+    width:157px;
     background-color: #029837;
     height:53.3px;
     border-radius: 63.3px;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 
@@ -389,6 +398,10 @@
     
 }
 
+/* burge */
+#burger{
+    display: none;
+}
 
 
 
@@ -398,7 +411,7 @@
         padding: 20px;
     }
     .nav{
-        gap: 25px;
+        gap: 25px; 
     }
     .header img{
         width: 150px;
@@ -422,10 +435,19 @@
     .pre-marital-1{
         max-width: 100%;
         font-size:16px;
+        margin-left: 10px;
     }
     .pre-marital-2{
         width: 100%;
         max-width: 150px;
+        margin-left: 10px;
+        
+    }
+    .section-4{
+        width: 90%;
+    }
+    .dolor{
+        width: 80%;
     }
 }
 
@@ -463,6 +485,22 @@
     .bloc{
         padding: 10px 20px;
     }
+    .img-1{
+        margin: 10px;
+    }
+    .pre-marital{
+        width: 100%;
+    }
+    .section-4{
+        width: 90%;
+    }
+    .dolor{
+        width: 80%;
+    }
+    .learn{
+        margin: 10px;
+
+    }
 }
 
 @media(max-width: 768px){
@@ -481,7 +519,37 @@
     }
     .pre-marital-2{
         width: 100%;
-        max-width: 150px;
+        font-size: 14px;
+    }
+    .section-2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .div-3{
+        width: 90%;
+    }
+    .conteiner{
+        flex-direction: column;
+    }
+    .conteiner-a{
+        max-width: 90%;
+    }
+    .div-3{
+        width: 90%;
+    }
+    .div-4{
+        max-width: 90%;
+    }
+    .email{
+        max-width: 530px;
+        width: 100%;
+    }
+    .sub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: auto;
     }
 }
 
@@ -493,15 +561,69 @@
 
 
 /* mede-3 */
-@media(max-width: 480px){
-    .pre-marital{
-        padding: 20px;
+@media(max-width: 520px){
+    .section-3{
+        flex-direction: column;
     }
     .pre-marital-1{
         padding: 18px;
+        margin-left: 0%;
     }
     .pre-marital-2{
-        position: 14px;
+       margin-left: 0%;
+        flex-direction: column;
+    }
+   .section-2{
+    flex-direction: column;
+   }
+   .post-1{
+    width: 100%;
+   }
+   .img-1{
+    margin-left: 5px;
+   }
+   .learn{
+    margin-left: 0%;
+   }
+   
+
+
+   .conteiner-a{
+        max-width: 90%;
+    }
+    .div-3{
+        width: 90%;
+    }
+    .div-4{
+        max-width: 90%;
+    }
+     .email{
+        max-width: 100px;
+        width: 100%;
+        margin: auto;
+    }
+    .sub{
+     max-width:  157px; 
+        margin-top: 10px;
+    }
+
+
+    .nageishen{
+       display: none;
+    }
+    .contact{
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+    .nav{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+       
+    .nageishen.active{
+        display: block;
     }
    
 }
@@ -510,8 +632,19 @@
 
 
 
+
+
 /* mede-4 */
 @media(max-width: 320px){
-
-
+     .email{
+        width: 100%;
+        max-width: 200px;
+    }
+    .sub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: auto;
+    }
 }
